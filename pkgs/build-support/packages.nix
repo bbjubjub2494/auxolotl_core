@@ -310,6 +310,8 @@ with pkgs;
 
   # fetchFromGitea = callPackage ./fetchgitea { };
 
+  fetchFromGitForge = callPackage ./fetchgitforge { };
+
   fetchFromGitHub = callPackage ./fetchgithub { };
 
   # fetchFromBitbucket = callPackage ./fetchbitbucket { };
